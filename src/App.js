@@ -371,11 +371,12 @@ function App() {
           </s.Container>
           <s.SpacerLarge />
           <s.Container flex={1} jc={"center"} ai={"center"}>
+            <StyledLink target={"_blank"} href={"https://nftcalendar.io/event/matchstick-mates-mms-mint/"}>               
             <StyledImg
-              alt={"example"}
-              src={"/config/images/example.gif"}
-              style={{ transform: "scaleX(-1)" }}
-            />
+                  alt={"nftcalendar"}
+                  src={"/config/images/nftcalendar.png"}
+              />
+            </StyledLink>            
           </s.Container>
         </ResponsiveWrapper>
         <s.SpacerMedium />
